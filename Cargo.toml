@@ -1,0 +1,16 @@
+[package]
+name = "zx"
+version = "0.0.1"
+edition = "2018"
+categories = ["command-line-utilities", "compression"]
+description = "Zlib command line interface"
+license = "MIT"
+repository = "https://github.com/ok-john/zx"
+
+[dependencies]
+clap = "2.33"
+flate2 = "1.0"
+
+[dev-dependencies]
+assert_cmd = "1"
+predicates = "1"
